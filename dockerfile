@@ -2,7 +2,7 @@
 FROM fluent/fluentd:latest
 USER root
 
-RUN apt-get install build-essential \
+RUN apt-get update && apt-get install build-essential \
     libgeoip-dev \
     libmaxminddb-dev
 
