@@ -11,8 +11,4 @@ RUN gem install fluent-plugin-elasticsearch --no-document
 RUN gem install fluent-plugin-opensearch --no-document
 RUN gem install fluent-plugin-beats --no-document
 
-# cleanup
-RUN apt autoclean -y \
-rm -rf /var/cache/apt/* 
-
 USER fluent
