@@ -1,5 +1,5 @@
 # FluentD
-[fluentd](https://github.com/fluent/fluentd) docker container with [geoip filter](https://github.com/y-ken/fluent-plugin-geoip), [beats input](https://github.com/repeatedly/fluent-plugin-beats) & [opensearch output plugin](https://github.com/fluent/fluent-plugin-opensearch) <br>
+[fluentd](https://github.com/fluent/fluentd) docker container with [docker](https://github.com/edsiper/fluent-plugin-docker) & [geoip filter](https://github.com/y-ken/fluent-plugin-geoip), [beats input](https://github.com/repeatedly/fluent-plugin-beats) & [opensearch output plugin](https://github.com/fluent/fluent-plugin-opensearch) <br>
 
 <div align="center">
 

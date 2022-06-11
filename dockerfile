@@ -10,5 +10,6 @@ RUN apt-get install -y build-essential libgeoip-dev libmaxminddb-dev
 RUN gem install fluent-plugin-elasticsearch --no-document
 RUN gem install fluent-plugin-opensearch --no-document
 RUN gem install fluent-plugin-beats --no-document
+RUN gem install fluent-plugin-docker --no-document
 
 USER fluent
