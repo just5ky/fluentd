@@ -1,9 +1,14 @@
 # FluentD
-fluentd docker container with [geoip filter](https://github.com/y-ken/fluent-plugin-geoip), [beats input](https://github.com/repeatedly/fluent-plugin-beats) & [opensearch output plugin](https://github.com/fluent/fluent-plugin-opensearch) <br>
+[fluentd](https://github.com/fluent/fluentd) docker container with [geoip filter](https://github.com/y-ken/fluent-plugin-geoip), [beats input](https://github.com/repeatedly/fluent-plugin-beats) & [opensearch output plugin](https://github.com/fluent/fluent-plugin-opensearch) <br>
+<center>
+
+![](https://avatars.githubusercontent.com/u/859518?s=200)
+
 ![GitHub repo size](https://img.shields.io/github/repo-size/just5ky/fluentd?label=Repo%20Size&logo=github)
 ![Docker Build](https://github.com/just5ky/fluentd/workflows/Docker/badge.svg) 
 ![Docker Pulls](https://img.shields.io/docker/pulls/justsky/fluentd)
 ![Docker Size](https://img.shields.io/docker/image-size/justsky/fluentd)
+</center>
 
 #### Docker Run
 
