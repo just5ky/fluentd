@@ -13,7 +13,7 @@
 </div>
 
 #### Docker Run
-`docker run --rm --name fluentd -v ./fluentd/conf:/fluentd/etc -p 24224:24224 -p 24224:24224/udp justsky/fluentd`
+`docker run --rm --name fluentd -v ./fluentd/conf:/fluentd/etc -p 9292:9292 -p 24224:24224 -p 24224:24224/udp justsky/fluentd`
 
 #### Docker compose
 ```yml
