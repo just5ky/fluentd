@@ -11,5 +11,7 @@ RUN gem install fluent-plugin-elasticsearch --no-document
 RUN gem install fluent-plugin-opensearch --no-document
 RUN gem install fluent-plugin-beats --no-document
 RUN gem install fluent-plugin-docker --no-document
+RUN gem install fluentd-ui --no-document
+RUN fluentd-ui start --daemonize
 
 USER fluent
