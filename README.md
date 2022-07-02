@@ -26,6 +26,7 @@ services:
         ports:
             - "24224:24224"
             - "24224:24224/udp"
+            - "9292:9292"          # Web UI
         volumes:
             - ./fluentd/conf:/fluentd/etc
 ```
